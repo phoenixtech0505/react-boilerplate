@@ -19,6 +19,7 @@ import Footer from 'components/Footer';
 
 import GlobalStyle from '../../global-styles';
 
+// styled component
 const AppWrapper = styled.div`
   max-width: calc(768px + 16px * 2);
   margin: 0 auto;
@@ -28,6 +29,7 @@ const AppWrapper = styled.div`
   flex-direction: column;
 `;
 
+// Functional component and React hooks
 export default function App() {
   return (
     <AppWrapper>
